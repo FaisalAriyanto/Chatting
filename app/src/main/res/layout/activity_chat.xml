@@ -1,0 +1,67 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:id="@+id/container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:background="@color/primary_light"
+
+        android:orientation="vertical">
+
+        <!--<ListView-->
+            <!--android:id="@+id/list_view_chat"-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_centerVertical="true"-->
+            <!--android:choiceMode="multipleChoice">-->
+        <!--</ListView>-->
+        <ListView
+            android:id="@+id/messagesContainer"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_above="@+id/edit_msg"
+            android:layout_marginBottom="20dp"
+            android:divider="@null"
+            android:transcriptMode="alwaysScroll"
+            android:choiceMode="multipleChoice"/>
+
+        <LinearLayout
+            android:id="@+id/edit_msg"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:background="@color/white"
+            android:layout_alignParentBottom="true">
+
+            <EditText
+                android:id="@+id/messageEdit"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentStart="true"
+                android:hint="Ketik Pesan"
+                android:layout_weight="1"
+                android:maxHeight="200dp"
+                android:layout_marginTop="10dp" />
+
+            <ImageButton
+                android:id="@+id/chatSendButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentEnd="true"
+                android:src="@drawable/ic_send"
+                android:layout_weight="1"
+                android:paddingLeft="40dp"
+                android:paddingRight="40dp" />
+        </LinearLayout>
+
+
+    </RelativeLayout>
+</LinearLayout>

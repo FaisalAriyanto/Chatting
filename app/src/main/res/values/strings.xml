@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Chatting</string>
+    <string name="title_activity_chat_list">ChatList</string>
+    <string name="login_url">http://192.168.88.29:8000/login</string>
+    <string name="register_url">http://192.168.88.29:8000/register</string>
+    <string name="chat_list">http://192.168.88.29:8000/chat_list</string>
+    <string name="send_message">http://192.168.88.29:8000/send_message</string>
+    <string name="message_history">http://192.168.88.29:8000/message_history</string>
+
+    <string name="rationale_camera">Akses kamera dibutuhkan untuk mengambil photo penugasan</string>
+    <string name="rationale_storage">Akses penyimpanan dibutuhkan untuk menyimpan sementara hasil photo penugasan</string>
+    <string name="rationale_location">Akses lokasi dibutuhkan untuk mengambil lokasi pada saat penugasan</string>
+    <string name="rationale_phone">Akses telepon dibutuhkan untuk mengetahui informasi imei</string>
+    <string name="rationale_call">Akses telepon dibutuhkan untuk menelpon nasabah</string>
+</resources>

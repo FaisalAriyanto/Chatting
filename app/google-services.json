@@ -1,0 +1,104 @@
+{
+  "project_info": {
+    "project_number": "1039628133374",
+    "firebase_url": "https://mcdpush.firebaseio.com",
+    "project_id": "mcdpush",
+    "storage_bucket": "mcdpush.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1039628133374:android:a5956dee261edb2b",
+        "android_client_info": {
+          "package_name": "com.example.faisal.mobilecollectiondevice"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1039628133374-l75q9g1m59jeo8s6fso5bbt2im91rv4e.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCZpTH40b7HEtXiLz9Ov_uRvykE4YHdKxM"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1039628133374:android:b0023c4b944f38e9",
+        "android_client_info": {
+          "package_name": "com.example.faisal.mobilecollectiondeviceLar"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1039628133374-l75q9g1m59jeo8s6fso5bbt2im91rv4e.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCZpTH40b7HEtXiLz9Ov_uRvykE4YHdKxM"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1039628133374:android:0fc57e186a2aea22",
+        "android_client_info": {
+          "package_name": "chatting.faisal.pkp.chatting"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1039628133374-l75q9g1m59jeo8s6fso5bbt2im91rv4e.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCZpTH40b7HEtXiLz9Ov_uRvykE4YHdKxM"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
